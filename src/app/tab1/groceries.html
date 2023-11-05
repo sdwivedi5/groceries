@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Grocery List</title>
+    <style>
+        body {
+            background-color: #fafafa;
+        }
+
+        .jumbotron {
+            background-color: white !important;
+            margin-top: 3%;
+            box-shadow: 12px 10px 14px -1px rgba(0, 0, 0, 0.53);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <div style="width: 100%; text-align: right">
+            <p>
+                Sandeep Dwivedi<br>
+            </p>
+        </div>
+        <h2 style="text-align: center">
+            My Grocery List
+        </h2>
+        <hr>
+        <table class="table table-striped">
+            <thead style="background-color: bisque">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            </thead>
+            <tbody id="grocery">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="grocery.js"></script>
+</body>
+</html>
